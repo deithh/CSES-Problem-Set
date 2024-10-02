@@ -2,5 +2,5 @@
 My solutions to problems from CSES set
 
 
-### Current progress 28/300
+### Current progress 32/300
 https://cses.fi/problemset/user/277279/

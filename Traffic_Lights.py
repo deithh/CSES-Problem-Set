@@ -4,6 +4,7 @@ def main():
     seq = [int(x) for x in input().split()]
 
     res = [l]
+    lengths=[l]
 
     for i in seq:
         current_sum = i
@@ -14,6 +15,7 @@ def main():
                 del res[ind]
                 res.insert(ind, j-i)
                 res.insert(ind, i)
+                
                 break
 
         print(max(res))
